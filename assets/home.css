@@ -68,6 +68,27 @@ main {
   color: var(--accent);
 }
 
+.discord-link {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid rgba(88, 101, 242, 0.28);
+  padding: 8px 11px;
+  color: #29304a;
+}
+
+.discord-link svg {
+  width: 18px;
+  height: 18px;
+  fill: #5865f2;
+  flex: 0 0 auto;
+}
+
+.topline .discord-link:hover {
+  border-color: rgba(88, 101, 242, 0.56);
+  color: #111827;
+}
+
 .hero {
   max-width: 900px;
   padding: clamp(52px, 9vw, 110px) 0 clamp(38px, 7vw, 76px);
