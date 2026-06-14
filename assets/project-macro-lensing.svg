@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Macro lensing abstract thumbnail</title>
+  <desc id="desc">Lens arcs over macro signal bands.</desc>
+  <rect width="1200" height="750" fill="#fbfaf7"/>
+  <path d="M0 454C210 348 326 393 520 312C700 238 820 160 1200 214V750H0Z" fill="#0f766e" opacity=".20"/>
+  <path d="M0 574C190 480 370 502 560 434C740 370 930 390 1200 316V750H0Z" fill="#172033" opacity=".22"/>
+  <path d="M0 650C236 582 438 610 634 520C790 448 966 464 1200 394V750H0Z" fill="#af4c23" opacity=".20"/>
+  <g transform="translate(600 380)" fill="none">
+    <circle r="250" stroke="#b38a3a" stroke-width="4" opacity=".62"/>
+    <circle r="180" stroke="#b38a3a" stroke-width="3" opacity=".42"/>
+    <circle r="110" stroke="#b38a3a" stroke-width="2" opacity=".34"/>
+    <path d="M-360 20C-214-90-80-110 32-48C138 10 204 104 360 52" stroke="#0a1324" stroke-width="8" opacity=".74" stroke-linecap="round"/>
+    <path d="M-330 138C-182 60-58 66 40 104C152 148 248 162 336 112" stroke="#0f766e" stroke-width="7" opacity=".74" stroke-linecap="round"/>
+    <path d="M-290-128C-162-54-56-48 60-88C180-130 248-130 314-86" stroke="#af4c23" stroke-width="6" opacity=".66" stroke-linecap="round"/>
+  </g>
+  <text x="90" y="112" font-family="Georgia,serif" font-size="58" fill="#0a1324">Macro Lensing</text>
+  <text x="92" y="158" font-family="Arial,sans-serif" font-size="22" fill="#5e6879">archive / synthesis / public surface</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Educational materials abstract thumbnail</title>
+  <desc id="desc">Two institutional publication covers arranged over a quiet paper field.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="1" stop-color="#ece6dc"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#172033" stop-opacity=".46"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .05"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#paper)"/>
+  <rect width="1200" height="750" filter="url(#noise)" opacity=".8"/>
+  <path d="M0 468C166 388 270 418 416 364C585 303 660 185 824 205C976 223 1038 340 1200 276V750H0Z" fill="url(#teal)" opacity=".5"/>
+  <path d="M0 610C205 508 356 542 530 472C706 402 782 314 976 348C1074 365 1134 404 1200 382V750H0Z" fill="#af4c23" opacity=".22"/>
+  <g transform="translate(180 96)">
+    <rect width="270" height="430" fill="#fffdfa" stroke="#d8d3c8" stroke-width="3"/>
+    <line x1="54" y1="62" x2="216" y2="62" stroke="#b38a3a" stroke-width="2"/>
+    <text x="135" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#0a1324">MACRO</text>
+    <text x="135" y="164" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#0a1324">REGIME</text>
+    <path d="M36 306C86 250 130 280 172 242C208 209 232 172 270 184V430H36Z" fill="#0f766e" opacity=".35"/>
+    <path d="M0 378C72 328 128 340 184 302C230 271 248 232 270 242V430H0Z" fill="#172033" opacity=".36"/>
+  </g>
+  <g transform="translate(552 132)">
+    <rect width="300" height="430" fill="#fffdfa" stroke="#d8d3c8" stroke-width="3"/>
+    <line x1="60" y1="64" x2="240" y2="64" stroke="#b38a3a" stroke-width="2"/>
+    <text x="150" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#0a1324">PRIVATE</text>
+    <text x="150" y="164" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#0a1324">CREDIT</text>
+    <path d="M0 320C94 272 132 224 222 250C256 260 274 282 300 274V430H0Z" fill="#af4c23" opacity=".28"/>
+    <path d="M30 390C120 306 182 334 300 250V430H30Z" fill="#172033" opacity=".38"/>
+  </g>
+  <circle cx="960" cy="188" r="62" fill="none" stroke="#b38a3a" stroke-width="3" opacity=".65"/>
+  <path d="M910 310C978 248 1042 236 1118 270" fill="none" stroke="#b38a3a" stroke-width="4" opacity=".55"/>
+</svg>

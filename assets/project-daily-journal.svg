@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Daily market journal abstract thumbnail</title>
+  <desc id="desc">Ledger rows, small market charts, and signal bands.</desc>
+  <rect width="1200" height="750" fill="#fbfaf7"/>
+  <rect x="90" y="86" width="1020" height="560" fill="#fff" stroke="#d8d3c8" stroke-width="3"/>
+  <g stroke="#d8d3c8" stroke-width="2">
+    <line x1="140" y1="178" x2="1060" y2="178"/>
+    <line x1="140" y1="260" x2="1060" y2="260"/>
+    <line x1="140" y1="342" x2="1060" y2="342"/>
+    <line x1="140" y1="424" x2="1060" y2="424"/>
+    <line x1="140" y1="506" x2="1060" y2="506"/>
+    <line x1="350" y1="132" x2="350" y2="604"/>
+    <line x1="660" y1="132" x2="660" y2="604"/>
+  </g>
+  <g fill="#0a1324" font-family="Arial,sans-serif" font-weight="700" font-size="24" opacity=".78">
+    <text x="140" y="142">DATE</text>
+    <text x="390" y="142">SIGNAL</text>
+    <text x="700" y="142">NOTES</text>
+  </g>
+  <g fill="#af4c23" opacity=".85">
+    <rect x="140" y="207" width="120" height="16"/>
+    <rect x="140" y="289" width="150" height="16"/>
+    <rect x="140" y="371" width="98" height="16"/>
+    <rect x="140" y="453" width="132" height="16"/>
+  </g>
+  <path d="M390 556C446 494 510 522 562 452C615 381 590 320 660 286C742 246 816 286 876 218C920 168 974 178 1060 142" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M390 600C482 542 560 568 638 500C720 428 746 444 806 390C884 319 948 344 1060 296" fill="none" stroke="#b38a3a" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <circle cx="876" cy="218" r="14" fill="#af4c23"/>
+  <circle cx="1060" cy="142" r="14" fill="#af4c23"/>
+</svg>
