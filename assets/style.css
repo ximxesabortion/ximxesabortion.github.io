@@ -458,6 +458,9 @@ footer {
   margin-bottom: 18px;
 }
 .hero-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
   background:
@@ -466,14 +469,38 @@ footer {
     #ffffff;
   padding: 22px;
 }
+.hero-panel::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 16px;
+  right: 24px;
+  bottom: 16px;
+  width: min(42%, 430px);
+  background: url("operator-master-seal.png") center / contain no-repeat;
+  opacity: 0.16;
+  pointer-events: none;
+}
+.hero-panel::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.92) 54%, rgba(255, 255, 255, 0.18) 78%, transparent 100%);
+  pointer-events: none;
+}
+.hero-panel > * {
+  position: relative;
+  z-index: 2;
+}
 .hub-title {
-  max-width: 820px;
+  max-width: min(820px, 72%);
   margin: 0;
   font-size: 52px;
   line-height: 1;
 }
 .hub-dek {
-  max-width: 760px;
+  max-width: min(760px, 68%);
   margin: 14px 0 0;
   color: var(--muted);
   font-size: 17px;
@@ -1102,6 +1129,13 @@ footer {
     linear-gradient(135deg, rgba(84, 200, 189, 0.12), rgba(231, 180, 91, 0.08)),
     var(--panel);
 }
+:root[data-theme="dark"] .hero-panel::before {
+  mix-blend-mode: screen;
+  opacity: 0.48;
+}
+:root[data-theme="dark"] .hero-panel::after {
+  background: linear-gradient(90deg, rgba(21, 31, 42, 0.98) 0%, rgba(21, 31, 42, 0.92) 52%, rgba(21, 31, 42, 0.28) 76%, transparent 100%);
+}
 :root[data-theme="dark"] .site-nav a[aria-current="page"] {
   border-color: rgba(84, 200, 189, 0.48);
   background: #143a37;
@@ -1123,7 +1157,12 @@ footer {
   .site-nav a { flex: 0 0 auto; }
   .theme-toggle { position: sticky; right: 0; margin-left: auto; }
   .hub-hero { grid-template-columns: 1fr; }
+  .hero-panel::before { right: -4%; width: 68%; }
+  .hero-panel::after { background: rgba(255, 255, 255, 0.78); }
+  :root[data-theme="dark"] .hero-panel::after { background: rgba(21, 31, 42, 0.78); }
   .hub-title { font-size: 34px; }
+  .hub-title,
+  .hub-dek { max-width: 100%; }
   .month-box summary { align-items: flex-start; flex-direction: column; }
   .month-box summary small { margin-left: 0; }
   .month-box summary::after { position: absolute; right: 14px; }
