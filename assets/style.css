@@ -481,7 +481,7 @@ footer {
   right: 24px;
   bottom: 16px;
   width: min(42%, 430px);
-  background: url("operator-master-seal-light.png") center / contain no-repeat;
+  background: url("operator-master-seal-light.png?v=2") center / contain no-repeat;
   mix-blend-mode: multiply;
   opacity: 0.52;
   pointer-events: none;

@@ -50,7 +50,7 @@
     },
     {
       "path": "assets/style.css",
-      "sha256": "ece14d82c3a07e60059c9d27742f376e87f59762c832778129ea61b2c796ec57"
+      "sha256": "8230fa157e5d6d9d97761b1f4a97799f16da92bafcdcc0ef114cdd3deb8e5e29"
     },
     {
       "path": "assets/substack-card.jpg",
@@ -66,7 +66,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "41374e54f8ad56562fbf49006341524fadc0cdf3c5011aa818449393fcda3953"
+      "sha256": "5896f1079822c1759093f8bdf566fdb79b10f359201c75d705e1571cfb204a51"
     },
     {
       "path": "legal.html",
