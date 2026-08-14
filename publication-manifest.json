@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "assets/foundry-discord.png",
+      "sha256": "e7a81c0e2adb5c1291582921482df2805b1065cda593215247607c89929fb074"
+    },
+    {
+      "path": "assets/home.css",
+      "sha256": "5e8f02467beb432181801ad82ed7719b977395a985bd9c05baf2aa4deacfc88d"
+    },
+    {
+      "path": "assets/library-card.jpg",
+      "sha256": "90ab3514a692873e142be9493b185f4e8abb6a4fd597979ac1b6d7cd6f7eccbc"
+    },
+    {
+      "path": "assets/project-educational-materials.svg",
+      "sha256": "aba39a0c284c88f8f3f721f492f34e936f155179a05e171b7c76fd7e15f91327"
+    },
+    {
+      "path": "assets/project-macro-lensing.svg",
+      "sha256": "a2e9d64176bd8304a2bc101a027539bd5dd1163d967bb3f03d1150f4a76f3a64"
+    },
+    {
+      "path": "assets/style.css",
+      "sha256": "c231c34f441f0d4e67ce43adbd36ca4a2bc24b5bfbd7a170ec276aafd6c4fdf0"
+    },
+    {
+      "path": "assets/substack-card.jpg",
+      "sha256": "864820c73390d878f8f24a55c2790b82cd6372f726b9b1a62d7a6c7fb8aa2952"
+    },
+    {
+      "path": "assets/table-sort.js",
+      "sha256": "ee618ef517e3ad5e7a5123ffec7c8ab5ad502f7db5cd1cb7eb71504158f32f12"
+    },
+    {
+      "path": "assets/theme.js",
+      "sha256": "5d2f62a2a8f53a2c61c58aeff729827e72c4395318153f2836c51abe712cbf99"
+    },
+    {
+      "path": "index.html",
+      "sha256": "5df19f44b350f326d50d952cac81f6ce2f3add72e5d41a29d646b55539e00222"
+    }
+  ],
+  "profile": "hub",
+  "schema_version": 1
+}
