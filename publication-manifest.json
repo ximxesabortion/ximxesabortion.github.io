@@ -18,7 +18,7 @@
     },
     {
       "path": "assets/legal.css",
-      "sha256": "18382767d7379916159599c999f4a7579b9a3fbf9a1541b590e0979f942bf00e"
+      "sha256": "446c8bfa208c7c36b90cc5636fe6c81e300912a46471c722797056e32cb1f7fb"
     },
     {
       "path": "assets/library-card.jpg",
@@ -31,6 +31,10 @@
     {
       "path": "assets/operator-face-mark.png",
       "sha256": "9ca5aae76b915de806af7ec928a44ffdc9ec6d698242dacaeecf4ff4fb12e50f"
+    },
+    {
+      "path": "assets/operator-master-seal-light.png",
+      "sha256": "e635679b3c1b347f38fdaaa50022c136acfe1e916bca1278d7b89f28d3a1b7b4"
     },
     {
       "path": "assets/operator-master-seal.png",
@@ -46,7 +50,7 @@
     },
     {
       "path": "assets/style.css",
-      "sha256": "b887027379708f627c68f1ad9a90a2d586c5a2c6ae81c6645609e131115e8a54"
+      "sha256": "a46d9d34434148d951a273ab28b531f734490891d790026fe58e1d5f51521490"
     },
     {
       "path": "assets/substack-card.jpg",
@@ -62,11 +66,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "20e2bf11726b4b538da485cabd72aaeadf46e1de4d8ef15d233e89888f459c89"
+      "sha256": "0efcb165de72a68779aadd495029cc1e18fc40dcfd721086477015c032b78c6d"
     },
     {
       "path": "legal.html",
-      "sha256": "527d251dc64d8a24fddab5689e858473a426579aa27ebc9cd2c1cde0b928528e"
+      "sha256": "285e0ad66855ee5f5cd8400a256f257a90d3ee1954f8e8937f26a311fd2f8312"
     }
   ],
   "profile": "hub",
