@@ -781,6 +781,23 @@ footer {
   height: 100%;
   object-fit: contain;
 }
+.ledger-lockup {
+  display: grid;
+  gap: 5px;
+  line-height: 1;
+  white-space: nowrap;
+}
+.ledger-lockup strong {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+.ledger-lockup small {
+  color: #b9ff19;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
 .clicker-label {
   color: var(--muted);
   font-size: 12px;

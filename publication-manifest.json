@@ -21,6 +21,18 @@
       "sha256": "90ab3514a692873e142be9493b185f4e8abb6a4fd597979ac1b6d7cd6f7eccbc"
     },
     {
+      "path": "assets/operator-face-icon-192.png",
+      "sha256": "ccdbcf40096d1d97d03ab2d996fb97eec19bf9f14fa74483893cac31665c899e"
+    },
+    {
+      "path": "assets/operator-face-mark.png",
+      "sha256": "9ca5aae76b915de806af7ec928a44ffdc9ec6d698242dacaeecf4ff4fb12e50f"
+    },
+    {
+      "path": "assets/operator-master-seal.png",
+      "sha256": "00c54e08444831e3bd8fb0bd380695178eed71d2d487977643812a246d8b202d"
+    },
+    {
       "path": "assets/project-educational-materials.svg",
       "sha256": "aba39a0c284c88f8f3f721f492f34e936f155179a05e171b7c76fd7e15f91327"
     },
@@ -30,7 +42,7 @@
     },
     {
       "path": "assets/style.css",
-      "sha256": "cc1f37dfa60b32110967f24458161eec1c3f89feaa4e182a13c717b357a5a808"
+      "sha256": "cb3a6e0cefc6f181bcd11b27d399e602e30fc808443a3ffeb2d8a087ae2f2942"
     },
     {
       "path": "assets/substack-card.jpg",
@@ -46,7 +58,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "2819d5763987975c7852ccbb02e09d43722a62cbcd1cdd37a5ef370233f06a35"
+      "sha256": "f7a8baefe0d5196d5702e5fb46a39c2e3f78424065147d35e0cec795b7d402eb"
     }
   ],
   "profile": "hub",
