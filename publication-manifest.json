@@ -34,7 +34,7 @@
     },
     {
       "path": "assets/operator-master-seal-light.png",
-      "sha256": "e635679b3c1b347f38fdaaa50022c136acfe1e916bca1278d7b89f28d3a1b7b4"
+      "sha256": "096290a66de3999d4a60849789cdb77d026025c84873f6df6ca754014fc47fe7"
     },
     {
       "path": "assets/operator-master-seal.png",
@@ -50,7 +50,7 @@
     },
     {
       "path": "assets/style.css",
-      "sha256": "a46d9d34434148d951a273ab28b531f734490891d790026fe58e1d5f51521490"
+      "sha256": "ece14d82c3a07e60059c9d27742f376e87f59762c832778129ea61b2c796ec57"
     },
     {
       "path": "assets/substack-card.jpg",
@@ -66,7 +66,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "0efcb165de72a68779aadd495029cc1e18fc40dcfd721086477015c032b78c6d"
+      "sha256": "41374e54f8ad56562fbf49006341524fadc0cdf3c5011aa818449393fcda3953"
     },
     {
       "path": "legal.html",
