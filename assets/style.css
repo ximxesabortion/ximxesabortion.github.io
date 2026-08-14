@@ -481,9 +481,8 @@ footer {
   right: 24px;
   bottom: 16px;
   width: min(42%, 430px);
-  background: url("operator-master-seal-light.png") center / contain no-repeat;
-  mix-blend-mode: multiply;
-  opacity: 0.52;
+  background: url("operator-master-seal.png") center / contain no-repeat;
+  opacity: 0.16;
   pointer-events: none;
 }
 .hero-panel::after {
@@ -1135,7 +1134,6 @@ footer {
     var(--panel);
 }
 :root[data-theme="dark"] .hero-panel::before {
-  background-image: url("operator-master-seal.png");
   mix-blend-mode: screen;
   opacity: 0.48;
 }
