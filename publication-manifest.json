@@ -5,6 +5,10 @@
       "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
     },
     {
+      "path": "assets/brand-mark.svg",
+      "sha256": "87ad9bc02a5f9ce4fd71cab0ac7c181d80c76c6df01a53069e933918df2eae3a"
+    },
+    {
       "path": "assets/foundry-discord.png",
       "sha256": "e7a81c0e2adb5c1291582921482df2805b1065cda593215247607c89929fb074"
     },
@@ -26,7 +30,7 @@
     },
     {
       "path": "assets/style.css",
-      "sha256": "c231c34f441f0d4e67ce43adbd36ca4a2bc24b5bfbd7a170ec276aafd6c4fdf0"
+      "sha256": "cc1f37dfa60b32110967f24458161eec1c3f89feaa4e182a13c717b357a5a808"
     },
     {
       "path": "assets/substack-card.jpg",
@@ -42,7 +46,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "5df19f44b350f326d50d952cac81f6ce2f3add72e5d41a29d646b55539e00222"
+      "sha256": "2819d5763987975c7852ccbb02e09d43722a62cbcd1cdd37a5ef370233f06a35"
     }
   ],
   "profile": "hub",
