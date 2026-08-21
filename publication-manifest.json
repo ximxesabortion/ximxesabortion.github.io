@@ -17,6 +17,14 @@
       "sha256": "5e8f02467beb432181801ad82ed7719b977395a985bd9c05baf2aa4deacfc88d"
     },
     {
+      "path": "assets/hub-gate.css",
+      "sha256": "fa5cead96686107b6108c339ee8b8bc023a88cb5a5789e6a5642dcd728fd4814"
+    },
+    {
+      "path": "assets/hub-gate.js",
+      "sha256": "5562afb624d337e62fb8b50ccc38dca704c1cecbfcc665e063f8160ca15ca8f8"
+    },
+    {
       "path": "assets/legal.css",
       "sha256": "446c8bfa208c7c36b90cc5636fe6c81e300912a46471c722797056e32cb1f7fb"
     },
@@ -66,7 +74,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "fbf848286b88bdf8ff0087a46bc511be6f59be5478160df1aab83ce6144e81d5"
+      "sha256": "02b2f7ca82bb4bfb604885a3a903b849aded5fada2b1e9952485d2c13292b5e2"
     },
     {
       "path": "legal.html",

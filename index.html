@@ -15,7 +15,9 @@
   <link rel="apple-touch-icon" href="assets/operator-face-icon-192.png">
   <script src="assets/theme.js?v=1"></script>
   <link rel="stylesheet" href="assets/style.css?v=24">
+  <link rel="stylesheet" href="assets/hub-gate.css?v=1">
   <script src="assets/table-sort.js?v=1" defer></script>
+  <script src="assets/hub-gate.js?v=1" defer></script>
 </head>
 <body>
   <nav class="site-nav" aria-label="Homepage navigation">
@@ -28,19 +30,17 @@
         <h1 class="hub-title">Composite Operator Hub</h1>
         <p class="hub-dek">A structured gateway to the Market Desk, the Ledger, the Foundry community, and the Substack.</p>
       </div>
-      <aside class="latest-panel" aria-label="Latest market desk packet">
-        <p class="eyebrow">Latest Market Packet</p>
-        <span class="date">2026-08-20</span>
+      <aside class="latest-panel" aria-label="Market Desk access">
+        <p class="eyebrow">Private Market Desk</p>
+        <span class="date">Daily Market Journal</span>
         <div class="link-strip">
-          <a class="box-link" href="https://composite-operator.github.io/daily-market-journal/posts/2026-08-20.html">Daily Journal</a>
-          <a class="box-link" href="https://composite-operator.github.io/daily-market-journal/macro/posts/2026-08-20.html">Macro Lens</a>
-          <a class="box-link" href="https://composite-operator.github.io/daily-market-journal/snapshots/2026-08-20.html">Snapshot</a>
+          <a class="box-link" href="https://composite-operator.github.io/daily-market-journal/" data-market-desk-gate>Open Market Desk</a>
         </div>
       </aside>
     </div>
 
     <div class="quick-grid" aria-label="Composite Operator sections">
-      <a class="clicker-card market-desk" href="https://composite-operator.github.io/daily-market-journal/">
+      <a class="clicker-card market-desk" href="https://composite-operator.github.io/daily-market-journal/" data-market-desk-gate>
         <span class="clicker-label">Market Desk</span>
         <span class="clicker-value">Daily Market Desk</span>
         <span class="clicker-meta">Daily Journal, Macro Lens, Pamphlets, snapshots, and Archive</span>
@@ -73,6 +73,20 @@
     </div>
 
   </main>
+  <dialog class="market-gate" id="market-gate" aria-labelledby="market-gate-title">
+    <form class="market-gate-form" id="market-gate-form">
+      <button class="market-gate-close" type="button" aria-label="Close password prompt">&times;</button>
+      <p class="eyebrow">Market Desk Access</p>
+      <h2 id="market-gate-title">Enter password</h2>
+      <label for="market-gate-password">Password</label>
+      <input id="market-gate-password" name="password" type="password" autocomplete="current-password" required>
+      <p class="market-gate-status" id="market-gate-status" role="alert" aria-live="polite"></p>
+      <div class="market-gate-actions">
+        <button class="market-gate-cancel" type="button">Cancel</button>
+        <button class="market-gate-submit" type="submit">Unlock</button>
+      </div>
+    </form>
+  </dialog>
   <footer class="hub-footer">
     <div class="hub-footer-links">
       <a href="legal.html#terms">Terms</a>

@@ -1,0 +1,107 @@
+.market-gate {
+  width: min(420px, calc(100vw - 32px));
+  margin: auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 0;
+  background: var(--panel);
+  color: var(--ink);
+  box-shadow: 0 24px 64px rgba(8, 16, 28, 0.28);
+}
+
+.market-gate::backdrop {
+  background: rgba(8, 16, 28, 0.62);
+}
+
+.market-gate-form {
+  position: relative;
+  display: grid;
+  gap: 12px;
+  padding: 28px;
+}
+
+.market-gate h2 {
+  margin: 0 0 8px;
+  font-size: 1.65rem;
+  letter-spacing: 0;
+}
+
+.market-gate label {
+  color: var(--muted);
+  font: 750 0.78rem/1.2 system-ui, sans-serif;
+  text-transform: uppercase;
+}
+
+.market-gate input {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 9px 11px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 1rem/1.2 system-ui, sans-serif;
+}
+
+.market-gate input:focus {
+  border-color: var(--teal);
+  outline: 2px solid color-mix(in srgb, var(--teal) 28%, transparent);
+  outline-offset: 1px;
+}
+
+.market-gate-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: 1.7rem/1 system-ui, sans-serif;
+}
+
+.market-gate-status {
+  min-height: 20px;
+  margin: 0;
+  color: #b42318;
+  font: 700 0.86rem/1.35 system-ui, sans-serif;
+}
+
+.market-gate-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.market-gate-actions button {
+  min-height: 42px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 9px 16px;
+  cursor: pointer;
+  font: 800 0.84rem/1.2 system-ui, sans-serif;
+}
+
+.market-gate-cancel {
+  background: var(--panel);
+  color: var(--ink);
+}
+
+.market-gate-submit {
+  border-color: var(--teal) !important;
+  background: var(--teal);
+  color: #ffffff;
+}
+
+@media (max-width: 520px) {
+  .market-gate-form {
+    padding: 24px 20px 20px;
+  }
+
+  .market-gate-actions button {
+    flex: 1 1 0;
+  }
+}
